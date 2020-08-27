@@ -1,0 +1,53 @@
+@import "~@adot/ui/build/sass-utils.scss";
+@import "~@adot/ui/build/adot-ui.css";
+
+.App {
+  // text-align: center;
+  /* background-color: grey; */
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40px;
+  pointer-events: none;
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  margin-bottom: 32px;
+}
+
+.FormStepper {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.FormStepper__Stepper {
+  width: 50%;
+}
+
+.formContainer {
+  display: flex;
+  margin: 16px;
+}
+
+.StepMenu__Card {
+  flex: 1;
+  margin-right: 8px;
+  height: 100%;
+}
+
+.StepContent__Card {
+  flex: 3;
+}

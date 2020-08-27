@@ -1,0 +1,12 @@
+// @import "~@adot/ui/build/sass-utils";
+
+.stepMenu {
+  position: sticky;
+  top: 80px;
+  padding: 10px 15px 15px 0;
+  list-style: none;
+  background-color: get-color("white", base);
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 3px;
+  margin: 0px;
+}
